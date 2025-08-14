@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="assets/netflix-favicon.png">
+    <title>Netflix/Login-byPedroBernardes</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <img class="header__logo" src="assets/netflix-logo.svg" alt="Logo da Netflix">
+
+    </header>
+
+
+
+    <main class="main">
+        <h1 class="main__titulo">
+            Entrar
+        </h1>
+        <form class="main__form" action="" method="get">
+            <input class="main__input" type="text" name="email-or-number" id="email-or-number" placeholder="Email ou número de celular" required>
+            <input class="main__input" type="password" name="password-user" id="password-user" placeholder="Senha" required>
+            <input class="main__login" type="submit" value="Entrar">
+        </form>
+
+        <h2 class="main__divisor">
+            OU
+        </h2>
+
+        <button class="main__alternativeLogin" onclick="usarCodigoDeAcesso()">Usar um código de
+            acesso
+        </button>
+
+        <a class="main__forgotPassword" href="">
+            Esqueceu a senha?
+        </a>
+        
+        <div class="main__rememberMe">
+            <input class="rememberMe__input" type="checkbox" name="remember-me" id="remember-me">
+            <label class="rememberMe__label" id="remember-me-label" for="remember-me">
+                Lembre-se de mim
+            </label>
+        </div>
+        
+        <div class="main__firstTime">
+            <p class="firstTime__paragraph">Primeira vez aqui?</p>
+            <a class="firstTime__signNow-link" href="">Assine agora.</a>
+        </div>
+        
+        <p class="main__recaptcha">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</p>
+        <a class="main__learnMore-link" href="">Saiba mais.</a>
+
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer__contact">Dúvidas? Ligue para 0800 591 2876 (ligação grátis)</h3>
+        <div class="footer__container">
+            <div class="footer__containerLinks">
+                <a class="footer__links" href="">Perguntas frequentes</a>
+                <a class="footer__links" href="">Preferências de cookies</a>
+            </div>
+            <div class="footer__containerLinks">
+                <a class="footer__links" href="">Central de Ajuda</a>
+                <a class="footer__links" href="">Informações corporativas</a>
+            </div>
+            <div class="footer__containerLinks">
+                <a class="footer__links" href="">Termos de Uso</a>            
+            </div>
+            <div>
+                <a class="footer__links" href="">Privacidade</a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
